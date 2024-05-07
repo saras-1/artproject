@@ -11,7 +11,7 @@ screen_height = pixel_size * grid_height
 
 
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("Layered Interface")
+pygame.display.set_caption("The Glitch of Venus")
 
 # Load images for each layer
 layer_images = [
