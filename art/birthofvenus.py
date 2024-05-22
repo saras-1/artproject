@@ -5,7 +5,7 @@ pygame.init()
 
 grid_width = 13
 grid_height = 9
-pixel_size = 90
+pixel_size = 50
 screen_width = pixel_size * grid_width
 screen_height = pixel_size * grid_height
 
