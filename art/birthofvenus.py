@@ -3,8 +3,8 @@ import sys
 
 pygame.init()
 
-grid_width = 30
-grid_height = 9
+grid_width = 13
+grid_height = 8
 pixel_size = 90
 screen_width = pixel_size * grid_width
 screen_height = pixel_size * grid_height
@@ -59,7 +59,7 @@ while running:
                 running = False
     # Update the display
     for x in range(13):
-        for y in range(9):
+        for y in range(8):
             screen.blit(grid_images[current_layer[x][y]][x][y], (x * pixel_size, y * pixel_size))
     pygame.display.flip()
 
