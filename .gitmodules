@@ -1,0 +1,3 @@
+[submodule "external/sentiment-data"]
+	path = external/sentiment-data
+	url = https://github.com/fahadchauhan/Public-Sentiment-on-Security-Cameras
